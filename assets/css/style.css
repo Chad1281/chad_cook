@@ -34,18 +34,18 @@ header div {
     /* flex-direction: row; */
     /* flex-wrap: wrap; */
     /* justify-content: space-evenly; */
-    font-size: 2rem;
+    font-size: 1.2rem;
     font-weight: bolder;
     text-align: center;
     line-height: 1.25;
     /* display: inline-block; */
-    margin: 350px 0 0 10vh;
+    margin: 550px 0 0 5vh;
     padding: 10px 0px 0px 0px;
     border: 5px solid gold;
     height: 250px;
-    width: 500px;
+    width: 375px;
     min-height: 250px;
-    min-width: 500px;
+    min-width: 375px;
     position: relative;
 }
 
@@ -55,11 +55,11 @@ header img {
     position: absolute;
     margin: 0px 0px 0px -310px;
     padding-bottom: 10px;
-    padding-left: 65px;
+    padding-left: 127px;
 }
 
 header h1 {
-    padding: 20px 0 0 175px;
+    padding: 20px 0 0 160px;
 }
 
 #hello {
@@ -67,7 +67,7 @@ header h1 {
 }
 
 #name {
-    font-size: 2.5rem;
+    font-size: 1.5rem;
 }
 
 nav {
@@ -115,7 +115,8 @@ main {
 } 
 
 #about { 
-    width: 80%;
+    display: flex;
+    /* width: 80%; */
     border: 8px solid green;
     border-radius: 10px;
     position: absolute;
@@ -124,8 +125,8 @@ main {
 }
 
 #about h2 {
-    position: absolute;
     display: flex;
+    position: absolute;    
     justify-content: center;
     font-size: 1.5rem;
     line-height: 2rem;
@@ -144,14 +145,13 @@ main {
     color: rgb(41, 31, 0);
     border: 5px solid gold;
     border-radius: 10px;
-    background-color: rgba(252, 229, 102, 0.6);
+    background-color: rgba(250, 245, 220, 0.6);
     padding: 10px;
 }
 
 #projects { 
     display: flex;
-    /* justify-content: space-around; */
-    width: 80%;
+    /* width: 80%; */
     border: 8px solid green;
     border-radius: 10px;
     position: absolute;
@@ -160,8 +160,8 @@ main {
 }
 
 #projects h2 {
-    position: absolute;
     display: flex;
+    position: absolute;
     justify-content: center;
     font-size: 1.5rem;
     line-height: 2rem;
@@ -191,4 +191,81 @@ main {
     padding: 10px;
 }
 
+#contact { 
+    display: flex;
+    width: 80%;
+    border: 8px solid green;
+    border-radius: 10px;
+    position: absolute;
+    padding: 10px;
+    margin: 750px 20vh;
+}
 
+#contact h2 {
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    font-weight: bold;
+    color: gold;
+    width: 150px;
+    margin: -2.7rem 1rem;
+    background-color: green;
+    border-radius: 12px 12px 0px 0px;
+    padding-bottom: 0px;
+}
+
+#contact div {
+    display: flex;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: rgb(41, 31, 0);
+    background-color: rgba(250, 245, 220, 0.6);
+    border: 5px solid gold;
+    border-radius: 10px;
+    padding: 10px;
+    width: auto;
+}
+
+#contact img {
+    height: 200px;
+    width: 200px;
+    padding: 10px;
+}
+
+#resume { 
+    display: flex;
+    width: 80%;
+    border: 8px solid green;
+    border-radius: 10px;
+    position: absolute;
+    padding: 10px;
+    margin: 1200px 20vh;
+}
+
+#resume h2 {
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    font-weight: bold;
+    color: gold;
+    width: 120px;
+    margin: -2.7rem 1rem;
+    background-color: green;
+    border-radius: 12px 12px 0px 0px;
+    padding-bottom: 0px;
+}
+
+#resume p {
+    display: flex;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: rgb(41, 31, 0);
+    border: 5px solid gold;
+    border-radius: 10px;
+    padding: 10px;
+    width: auto;
+}
