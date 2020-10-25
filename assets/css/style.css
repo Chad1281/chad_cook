@@ -173,6 +173,11 @@ nav a {
     padding: 10px;
 }
 
+.project img:hover {
+    height: 300px;
+    width: 300px;
+}
+
 .contact { 
     display: flex;
     border: 8px solid green;
@@ -214,6 +219,11 @@ nav a {
     padding: 10px;
 }
 
+.contact img:hover {
+    height: 300px;
+    width: 300px;
+}
+
 .resume { 
     display: flex;
     border: 8px solid green;
@@ -251,6 +261,11 @@ nav a {
 .resume img {
     height: 200px;
     width: 200px;
+}
+
+.resume img:hover {
+    height: 300px;
+    width: 300px;
 }
 
 @media screen and (max-width: 600px) {
