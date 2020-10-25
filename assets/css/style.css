@@ -31,14 +31,10 @@ header {
 }
 
 header div {
-    /* flex-direction: row; */
-    /* flex-wrap: wrap; */
-    /* justify-content: space-evenly; */
     font-size: 1.2rem;
     font-weight: bolder;
     text-align: center;
     line-height: 1.25;
-    /* display: inline-block; */
     margin: 550px 0 0 5vh;
     padding: 10px 0px 0px 0px;
     border: 5px solid gold;
@@ -91,11 +87,8 @@ nav a {
     padding-right: ;
 }
 
-main {
+/* main {
     display: flex;
-    /* justify-content: space-around; */
-    /* flex-direction: column; */
-    /* flex-wrap: wrap; */
     height: 100vh;
     width: 100%;
     background-image: url("../images/dublin_bw.png");
@@ -103,28 +96,31 @@ main {
     background-position: center;
     position: relative;
     
-}
-
-/* section {
-    display: flex;
 } */
 
+.position {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-image: url("../images/dublin_bw.png");
+    background-size: cover;
+    background-position: center;
+}
+
 .center {
-    /* display: flex; */
     justify-content: center;
 } 
 
-#about { 
+.about { 
     display: flex;
-    /* width: 80%; */
     border: 8px solid green;
     border-radius: 10px;
-    position: absolute;
-    padding: 10px;
-    margin: 150px 20vh;
+    padding: .8rem;
+    margin-top: 5rem;
 }
 
-#about h2 {
+.about h2 {
     display: flex;
     position: absolute;    
     justify-content: center;
@@ -133,13 +129,12 @@ main {
     font-weight: bold;
     color: gold;
     width: 120px;
-    margin: -2.7rem 1rem;
+    margin: -3rem 1rem;
     background-color: green;
     border-radius: 12px 12px 0px 0px;
-    padding-bottom: 0px;
 }
 
-#about p {
+.about p {
     font-size: 1.2rem;
     font-weight: bold;
     color: rgb(41, 31, 0);
@@ -149,17 +144,15 @@ main {
     padding: 10px;
 }
 
-#projects { 
+.project { 
     display: flex;
-    /* width: 80%; */
     border: 8px solid green;
     border-radius: 10px;
-    position: absolute;
-    padding: 10px;
-    margin: 450px 20vh;
+    padding: .8rem;
+    margin-top: 5rem;
 }
 
-#projects h2 {
+.project h2 {
     display: flex;
     position: absolute;
     justify-content: center;
@@ -168,13 +161,13 @@ main {
     font-weight: bold;
     color: gold;
     width: 120px;
-    margin: -2.7rem 1rem;
+    margin: -3rem 1rem;
     background-color: green;
     border-radius: 12px 12px 0px 0px;
     padding-bottom: 0px;
 }
 
-#projects p {
+.project p {
     display: flex;
     font-size: 1.2rem;
     font-weight: bold;
@@ -185,23 +178,21 @@ main {
     width: auto;
 }
 
-#projects img {
+.project img {
     height: 200px;
     width: 200px;
     padding: 10px;
 }
 
-#contact { 
+.contact { 
     display: flex;
-    width: 80%;
     border: 8px solid green;
     border-radius: 10px;
-    position: absolute;
-    padding: 10px;
-    margin: 750px 20vh;
+    padding: .8rem;
+    margin-top: 5rem;
 }
 
-#contact h2 {
+.contact h2 {
     display: flex;
     position: absolute;
     justify-content: center;
@@ -210,13 +201,13 @@ main {
     font-weight: bold;
     color: gold;
     width: 150px;
-    margin: -2.7rem 1rem;
+    margin: -3rem 1rem;
     background-color: green;
     border-radius: 12px 12px 0px 0px;
     padding-bottom: 0px;
 }
 
-#contact div {
+.contact div {
     display: flex;
     font-size: 1.2rem;
     font-weight: bold;
@@ -228,23 +219,21 @@ main {
     width: auto;
 }
 
-#contact img {
+.contact img {
     height: 200px;
     width: 200px;
     padding: 10px;
 }
 
-#resume { 
+.resume { 
     display: flex;
-    width: 80%;
     border: 8px solid green;
     border-radius: 10px;
-    position: absolute;
-    padding: 10px;
-    margin: 1200px 20vh;
+    padding: 1rem;
+    margin-top: 5rem;
 }
 
-#resume h2 {
+.resume h2 {
     display: flex;
     position: absolute;
     justify-content: center;
@@ -253,13 +242,13 @@ main {
     font-weight: bold;
     color: gold;
     width: 120px;
-    margin: -2.7rem 1rem;
+    margin: -3rem 1rem;
     background-color: green;
     border-radius: 12px 12px 0px 0px;
     padding-bottom: 0px;
 }
 
-#resume p {
+.resume p {
     display: flex;
     font-size: 1.2rem;
     font-weight: bold;
