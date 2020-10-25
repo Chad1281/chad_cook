@@ -1,16 +1,16 @@
 # My Portfolio
 
-##Description
+## Description
 
 Welcome to my portfolio page! On this page you will be able to find links to my projects, my contact information, and a copy of my resume. 
 
 ![Image of My Portfolio Homepage](https://github.com/Chad1281/chad_cook/blob/main/assets/images/my_portfolio_homepage.png)
 
-##Deployment
+## Deployment
 
 Access my page at [https://chad1281.github.io/chad_cook/](https://chad1281.github.io/chad_cook/)
 
-##Usage
+## Usage
 
 The navigation bar in the top right will take you to corresponding parts of the page. 
 
