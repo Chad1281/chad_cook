@@ -51,7 +51,7 @@ header img {
     position: absolute;
     margin: 0px 0px 0px -310px;
     padding-bottom: 10px;
-    padding-left: 127px;
+    padding-left: 128px;
 }
 
 header h1 {
@@ -96,10 +96,6 @@ nav a {
     background-size: cover;
     background-position: center;
 }
-
-/* .center {
-    justify-self: center;
-}  */
 
 .about { 
     display: flex;
