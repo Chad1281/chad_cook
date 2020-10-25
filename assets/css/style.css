@@ -87,17 +87,6 @@ nav a {
     padding-right: ;
 }
 
-/* main {
-    display: flex;
-    height: 100vh;
-    width: 100%;
-    background-image: url("../images/dublin_bw.png");
-    background-size: cover;
-    background-position: center;
-    position: relative;
-    
-} */
-
 .position {
     display: flex;
     flex-direction: column;
@@ -108,16 +97,16 @@ nav a {
     background-position: center;
 }
 
-.center {
-    justify-content: center;
-} 
+/* .center {
+    justify-self: center;
+}  */
 
 .about { 
     display: flex;
     border: 8px solid green;
     border-radius: 10px;
     padding: .8rem;
-    margin-top: 5rem;
+    margin: 5rem 5rem 0 10rem;
 }
 
 .about h2 {
@@ -149,7 +138,7 @@ nav a {
     border: 8px solid green;
     border-radius: 10px;
     padding: .8rem;
-    margin-top: 5rem;
+    margin: 5rem 5rem 0 10rem;
 }
 
 .project h2 {
@@ -189,7 +178,7 @@ nav a {
     border: 8px solid green;
     border-radius: 10px;
     padding: .8rem;
-    margin-top: 5rem;
+    margin: 5rem 10rem 0 10rem;
 }
 
 .contact h2 {
@@ -230,7 +219,7 @@ nav a {
     border: 8px solid green;
     border-radius: 10px;
     padding: 1rem;
-    margin-top: 5rem;
+    margin: 5rem 10rem 0 10rem;
 }
 
 .resume h2 {
@@ -257,4 +246,21 @@ nav a {
     border-radius: 10px;
     padding: 10px;
     width: auto;
+}
+
+.resume img {
+    height: 200px;
+    width: 200px;
+}
+
+@media screen and (max-width: 600px) {
+    .project p {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .contact div {
+        flex-direction: column;
+    }
 }
